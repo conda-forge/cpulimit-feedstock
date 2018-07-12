@@ -18,7 +18,8 @@ build:
 requirements:
   build:
     - libtool
-    - toolchain
+    - {{ compiler('c') }}
+  host:
 
   run:
 
